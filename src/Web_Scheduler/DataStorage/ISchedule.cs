@@ -12,6 +12,7 @@ namespace Web_Scheduler.DataStorage
         bool AddItem(DateTime dateStart, DateTime dateEnd, string title, string description);
         void RemoveItem(DateTime date);
         void RemoveItem(DateTime startDate, DateTime endDate);
-
+        ScheduleItem GetItem(DateTime date);
+        List<ScheduleItem> GetItem(DateTime startTime, DateTime endTime);
     }
 }

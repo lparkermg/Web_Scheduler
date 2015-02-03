@@ -84,6 +84,7 @@
     <Compile Include="DataStorage\ISchedule.cs" />
     <Compile Include="DataStorage\ScheduleItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheduler.cs" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
